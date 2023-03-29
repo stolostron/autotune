@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: autotune-pxoo
     pipelines.appstudio.openshift.io/type: build
   name: autotune-pxoo-on-pull-request
-  namespace: red-hat-acm-tenant
+  namespace: crt-redhat-acm-tenant
 spec:
   params:
   - name: dockerfile
